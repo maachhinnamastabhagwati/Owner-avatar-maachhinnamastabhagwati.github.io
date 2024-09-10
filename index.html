@@ -1,93 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ne">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chhinnamasta Bhagwati</title>
+    <title>छिन्नमस्ता भगवती मन्दिर</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
         }
-        .language-selector {
-            margin-bottom: 20px;
+        .hero {
+            height: 50vh;
+            background: url('https://example.com/temple-image.jpg') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 24px;
         }
         .content {
-            margin-top: 20px;
-            display: none;
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
-        .flag {
-            width: 30px;
-            height: 20px;
-            vertical-align: middle;
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        .section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            color: #f1c40f;
         }
     </style>
-    <script>
-        function showContent(lang) {
-            const contents = document.querySelectorAll('.content');
-            contents.forEach(content => {
-                content.style.display = 'none';
-            });
-            document.getElementById(lang).style.display = 'block';
-        }
-        document.addEventListener('DOMContentLoaded', () => {
-            showContent('english'); // Default to English
-        });
-    </script>
 </head>
 <body>
-    <div class="language-selector">
-        <button onclick="showContent('english')">
-            <img src="path/to/english-flag.png" alt="English Flag" class="flag"> English
-        </button>
-        <button onclick="showContent('nepali')">
-            <img src="path/to/nepali-flag.png" alt="Nepali Flag" class="flag"> Nepali
-        </button>
-        <button onclick="showContent('hindi')">
-            <img src="path/to/hindi-flag.png" alt="Hindi Flag" class="flag"> Hindi
-        </button>
-        <button onclick="showContent('maithili')">
-            <img src="path/to/maithili-flag.png" alt="Maithili Flag" class="flag"> Maithili
-        </button>
+
+    <div class="hero">
+        <div>
+            <h1>छिन्नमस्ता भगवती मन्दिर</h1>
+            <p>नेपाल र भारतका भक्तजनहरूको आस्था</p>
+        </div>
     </div>
-    <div id="english" class="content">
-        <h1>Chinnamasta Bhagawati</h1>
-        <p>Chinnamasta Bhagawati also called Shakhada Bhagawati and Shakhadeswori (Nepali: छिन्नमस्ता भगवती) is a temple and Shakti Peethas in Eastern Nepal.[1] It was established in 13th century by Shaktisimhadeva,[2] the fifth ruler of the Karnata dynasty.[3] The temple is in Chhinnamasta Rural Municipality, Saptari, 10 km from Rajbiraj near the Indian border. It is the oldest and most revered religious site in the Saptari district[4][5] and draws thousands of devotees from Nepal and India during Bada Dashain and other festivals to worship the Hindu goddess Bhagawati.[6]</p>
-        <h2>Etymology</h2>
-        <p>The historical name of the temple is Sakhada Bhagawati and the place is known as Sakhada.[7] The name 'Sakhada' is an abbreviation of the last affix of 'Shakra'. The name is derived from the King's nickname, Shakrasimhadeva who is also known as Shaktisimhadeva.[8] In modern times, the temple is known as Chinnamasta because goddess head was missing.[6]</p>
-        <h2>History</h2>
-        <p>In 1097 CE, the Karnat dynasty was established by Nanyadeva in Simraungadh.[9][10] Nanyadeva, who was from Karnata left his state and ran through Pataliputra and came to stay in Bara district of Nepal. He made Nanapura, Champaran as his first capital but later he moved his capital to Simraungadh.[11][12] He was accompanied by lot of his followers including Hindu priests and Kayastha community members.[13] King Nanyadeva's fifth generation descendant was King Shaktisimhadeva aka Shakrasimhadeva (r. 1285 to 1295 CE).[14] He was coup d'état by his general and minister Chadeshwar Thakur with the help of Think-tank council in 1295 CE.[15][16]</p>
-        <p>After he was dethrone from his supremacy, he came to the present day Saptari district to live the rest of his life in Vaanaprastha (Forest Life) after handing over Kingdom to his younger son Harisimhadeva. Over time, the village was full of jungle. He cleared the dense jungle with his men to build a temple and establish his goddess deity in his name as Sakhreswari. The king's fort was nearby the temple, known as Gadhi Gaachhi locally.[17]</p>
-        <p>The temple is locally known as Sakhra Bhagawati or Sakhreswari Bhagawati. Since the idol's severed head of the goddess Bhagwati is there, it is known as Chinnamasta Bhagawati.[18]</p>
-        <h2>Invasion</h2>
-        <p>The Tughlaq dynasty ruled the Delhi sultanate and most of Northern India from 1320 to 1413 CE. In 1324 CE, the founder of the dynasty and Sultan of Delhi, Ghiyasuddin Tughlaq turned his attention towards Bengal.[19] They invaded Bengal and on his way back to Delhi, the ruler comes to know about Simraungadh.[20] The Tughlaq armies cross through present-day Saptari to reach Simraungadh, which cause damage of this temple and idol of goddess Bhagawati.[21]</p>
+
+    <div class="content">
+        <div class="section">
+            <h2>मन्दिरको बारेमा</h2>
+            <p>
+                छिन्नमस्ता भगवती सप्तरी जिल्लाको राजविराजबाट दक्षिण सीमावर्ती क्षेत्र छिन्नमस्ता को सखडा गाउँमा पर्छ। छिन्नमस्ता भगवती मनोकामना पूरा गर्ने शक्तिपीठहरू मध्ये एक पीठ मानिएको हुॅदा नेपाल र भारतका आम जनमानसको ठुलो आस्था रहेको छ। यो मन्दिर सप्तरी सदरमुकाम राजविराजबाट १० किमी को दुरीमा रहेको छ। यो मन्दिर भारतीय सीमा नजिक रहेको छ। यस मन्दिरमा हिन्दुहरूको महान् चाड दशैँमा ठुलो घुइँचो लाग्ने गरेको छ र यहाँ बोकाको बलि दिने गरिन्छ। प्रायजसो हिन्दूहरू साना ठूला सवारी किन्दा चोख्याउन यहाँ आउने गरेका छन्।
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>इतिहास</h2>
+            <p>
+                प्राचीन इतिहास र किम्वदन्तीका अनुसार, सन् १०९७ मा मुसलमानले आक्रमण गर्दा कर्नाटकका कर्नाटवंशी राजा नान्यदेव भागेर पाटलीपुत्र हुँदै मिथिला आई पुगेर सिम्रौनगढ (बारा)मा राजधानी कायम गरे। यिनै नान्यदेव वंशको पाँचौँ पुस्तामा शक्रसिंह देव राजा भएका थिए। उनी नाबालक छोरा हरिसिंह देवलाई राजगद्दीमा राखी निर्वासित जीवन बिताउन सप्तरी आए। त्यसबेला जङ्गलले ढाकिएको यस स्थानमा जङ्गल सफा गर्दा भेटिएको भगवती मूर्तिलाई उनले आफ्नो कुलदेवीको रूपमा स्थापना गरी आफ्नो नामबाट देवीको नाम शक्रेश्वरी राखे भन्ने भनाइ छ। देवीको शिर नभएकोले केही समयपछि छिन्नमस्ता भगवती भन्न थालिएको हो।
+            </p>
+            <p>
+                सिम्रौनगढका राजा शक्रसिंह देवले आफ्नो कुल देवी शुक्रेश्वरीको स्थापना गरी मन्दिर बनाएका थिए। राजा शुक्र सिंहको अपभ्रंश भएर नै उक्त गाउँ सखडा हुन गएको हो। तीन दशक पूर्वसम्म सखडा भगवतीलाई सखडेश्वरी भगवती भनेर नै पूजा गरिन्थ्यो।
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>मन्दिर</h2>
+            <p>
+                मन्दिरभित्र मूल देवीको रूपमा भगवतीको कालो रङको बुट्टेदार मूर्ति छ। उक्त मूर्तिको पाउतिर राँगाको काटिएको टाउको प्रस्ट रूपमा ढुङ्गामा कुँदिएको छ। मूल मूर्तिको देब्रेपट्टि दक्षिणकाली, महषमर्दिनी र दाहिनेतिर चामुण्डा भैरवी र त्यस्तै कालो रङको अर्को प्रस्तर मूर्ति स्थापित छ। ती मूर्तिहरूलाई पञ्चभगिनी पनि भनिन्छ।
+            </p>
+            <p>
+                पूजा समितिले वर्षका चारवटै नवरात्रमा ५६ प्रकारका परिकार बनाई मध्यरातमा पूजा गर्ने गर्दै आएको छ। पूजा गर्दा केही विघ्नबाधा उत्पन्न हुन थालेपछि भगवतीको सिंहासनमा एउटा जन्तर राखी महाअष्टमीको राति तान्त्रिक विधिद्वारा पूजा गर्ने गरिएको छ। यहाँ बलि प्रदान गर्दा निस्केको रगतमा झिङ्गा नबस्नु, रगत लुगामा लागे पनि दाग नलाग्नु, रगत पोखरीको पानीमा मिसिदा रातो नहुनु, बलि प्रदान गर्ने नाममा राखेका खसी बाख्रालाई केही नहुनु, बलिका लागि किनेका पशुलाई कुकुर र स्याल टोकेको छ भने मन्दिर नपुग्दै मर्नु आदि आश्चर्यजनक काम हुँदै आएको भनाई रहेको छ।
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>महत्त्व</h2>
+            <p>
+                छिन्नमस्ता भगवती मनोकामना पूरा गर्ने शक्तिपीठहरूमध्ये एक पीठ मानिएको हुँदा यहाँ नेपाल तथा भारतका श्रद्धालु भक्तजनहरूको बोका, भेंडा, परेवा, हाँस र माछा आदि बलिदान सामग्रीसहित दिनहुँ घुइँचो लाग्ने गरेको मूल पूजारी महानन्द ठाकुर बताउनुहुन्छ। यहाँ प्रत्येक दिन ५० वटाभन्दा बढी तथा बडादसैँमा हजारौँ बोका, भेंडा, परेवा, हाँस र माछाको बलि चढाइन्छ। मनोकामना पूरा भएकाहरूले पञ्चबलिसमेत गर्छन्। यहाँ वर्षेनी ३० हजार भन्दा बढि बलि प्रदान हुने गरेको विश्वास गरिन्छ।
+            </p>
+            <p>
+                छिन्नमस्ता भगवती मुसलमानहरूको पनि आस्थाको केन्द्र बनेको छ। मुसलमान समुदायका हजारौँ व्यक्ति विभिन्न मनोकामना लिएर छिन्नमस्ता भगवती मन्दिर बाहिर बसी फूल हैस गर्न आउने गरेका पूजारी ठाकुर बताउनुहुन्छ।
+            </p>
+            <p>
+                करिब सवासय वर्षअघि सखडाको भगवती मन्दिर एउटा गुफाको रूपमा थियो। त्यहाँ स्थानीय बासिन्दा च्याखुरी नानी र चुनीलाल ठाकुरले सफा गरी भीक्षाटनबाट सङ्कलित रकमबाट सानो मन्दिर निर्माण गरेका थिए तर सो मन्दिर वि.सं. १९९० सालको भूकम्पमा भत्किएकोले त्यस बेलाका पूजारी अनिरुद्ध ठाकुरले समाजको सहयोगमा टिनको छाना भएको मन्दिर बनाएका थिए सो पनि जीर्ण हुँदै गएकाले वि.सं. २०२८ सालमा तत्कालीन भारतीय रेल मन्त्री ललित नारायण मिश्रले पक्की मन्दिरको साथै तीन कोठे धर्मशाला पनि बनाउन लगाएका थिए। वि.सं. २०४४ सालमा तत्कालीन राजा बीरेन्द्रले मन्दिर निर्माणको लागि रु. पाँच लाख चढाएर भगवतीको प्यागोडा शैलीको भव्य मन्दिरको निर्माण गराए जुन अद्यावधि छ।
+            </p>
+            <p>
+                नेपाली बृहत् शब्दकोशमा छिन्नमस्ताको अर्थ घाँटी छिनेको, आफ्नो टाउको हातमा लिई घाँटीबाट निस्केको रगतको धारा त्यसै टाउकोलाई खुवाई रहेको भन्ने छ। यस कुरा सखडास्थित मूर्तिसंग मेल खाँदैन। वि.स. १९८४ मा सप्तरी जिल्लाको तिलाठी निवासी ज्योतिषी यदुनन्दन मिश्रले अष्टधातुले बनेको एउटा घण्टा सखडा मन्दिरमा चढाएका थिए। उक्त घण्टामा शक्रेश्वरी एकपटक र महिषमर्दिनी दुईपटक लेखिएको छ। यसबाट स्पष्ट हुन्छ शक्रसिंहले आफ्नो इष्टदेवी भगवती स्थापना गरेका थिए।
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>मेला</h2>
+            <p>
+                दशैंको समयमा यहाँ भव्य मेला लाग्ने गर्दछ। सप्तरी, सिरहा, सुनसरी, धनुषा, मोरङ, उदयपुर लगायत नेपाल तथा भारतको बिहार राज्यबाट श्रद्धालु भक्तजनहरूको घुइचो लाग्ने गर्दछ। दसैँको समयमा यहाँ घटस्थापना देखि टिकासम्म मेला लाग्ने गर्दछ।
+            </p>
+        </div>
     </div>
-    <div id="nepali" class="content">
-        <h1>छिन्नमस्ता भगवती</h1>
-        <p>छिन्नमस्ता भगवती [सखड़ेश्वरी भगवती] मन्दिर सप्तरी जिलाकऽ राजविराज सँ दक्षिण सीमावर्ती क्षेत्र छिन्नमस्ता गाउँपालिका कऽ सखड़ा गाममे अवस्थित अछि । छिन्नमस्ता भगवती मनोकामना पूर्ण केनिहार शक्तिपीठसभमें सँ एक पीठ मानल जाईत अछि आ नेपाल आ भारतक आमजनमानसक बड्का आस्थाके केन्द्र अछि ।[१]</p>
-        <h2>इतिहास</h2>
-        <p>प्राचिन इतिहास आर किवंदन्तीके अनुसार, सन् १०९७में मुसलमान आक्रमण कालमें कर्नाटकके कर्नाटवंशी राजा नान्यदेव भागि पाटली पुत्र होइत मिथिला आएल आ सिम्रौनगढ (बारा)मे अपन राजधानी कायम कएने छल । एहि नान्यदेव वंशके पाँचम पिढीके शक्रसिंह देव राजा भेल । ऊ नाबालक पुत्र हरिसिंह देवके राजगद्दीपे राखि कऽ निर्वासित जीवन बिताबैल सप्तरी अएलाह। तखनि जङ्गलस भरल ई स्थानमें जङ्गल सफा करि कालमें भेटल भगवती मूर्तिके ओ अपन कुलदेवीक रूपमें स्थापना करलक आ अपन नामसँ देवीकें नाम शक्रेश्वरी राखने छल । देवीके शीर नैभेलाक कारणसँ किछु समयके बाद छिन्नमस्ता भगवती नाम राखल गेल छल ।[२] एहि ठाम दशमी (दशहरा) में सर्धालु भक्तजन सभक नेपाल आ भारतक बिहार सँ पैग सङ्ख्यामे माँताकें भक्तसभ दर्शन करबाक लेल आबैत अछि दशहराकें १० दिन धरि एहि ठाम पूजा पाठ केनिहार भक्तसभक खूब भीर रहैत अछि ।</p>
-        <h2>मूर्तिक विशेषता</h2>
-        <p>भगवतीक मूर्ति कारी रङ्गक छै। मूल मूर्तिके पैरक निचा पाड़ाक शीर स्पष्ट छै। मूल मूर्तिके कात दुनु बगल अन्य मूर्तिसभ अछि। स्थापित मूर्ति भैरवी चामुण्डा, छिन्नमस्ता, दक्षिणकाली आ महिष मर्दिनीक मूति अछि।[३]</p>
+
+    <div class="footer">
+        <p>&copy; 2024 छिन्नमस्ता भगवती मन्दिर। सबै अधिकार सुरक्षित।</p>
     </div>
-    <div id="hindi" class="content">
-        <h1>छिन्नमस्ता भगवती</h1>
-        <p>छिन्नमस्ता भगवती, जिसे सखड़ा भगवती और सखड़ेश्वरी भी कहा जाता है, पूर्वी नेपाल में स्थित एक मंदिर और शक्ति पीठ है। इसे 13वीं शताब्दी में शक्तिसिंहदेव द्वारा स्थापित किया गया था, जो कर्नाट वंश के पाँचवे शासक थे। यह मंदिर छिन्नमस्ता ग्रामीण नगरपालिका, सप्तरी में स्थित है, जो राजबीराज से 10 किमी दूर भारतीय सीमा के पास है। यह सप्तरी जिले का सबसे पुराना और सबसे पूजनीय धार्मिक स्थल है और बड़ा दशहरा और अन्य त्योहारों के दौरान नेपाल और भारत से हजारों भक्तों को आकर्षित करता है।</p>
-        <h2>शब्दावली</h2>
-        <p>मंदिर का ऐतिहासिक नाम सखड़ा भगवती है और स्थान को सखड़ा के नाम से जाना जाता है। 'सखड़ा' नाम 'शक्र' के अंतिम प्रत्यय का संक्षिप्त रूप है। यह नाम राजा के उपनाम शक्रसिंहदेव से लिया गया है, जिसे शक्तिसिंहदेव भी कहा जाता है। आधुनिक समय में, मंदिर को छिन्नमस्ता के नाम से जाना जाता है क्योंकि देवी की सिर गायब थी।</p>
-        <h2>इतिहास</h2>
-        <p>1097 ईस्वी में, कर्नाट वंश की स्थापना नान्यदेव ने सिम्रौनगढ में की थी। नान्यदेव, जो कर्नाट से थे, ने अपनी राज्य छोड़ दी और पाटलीपुत्र के माध्यम से भागते हुए नेपाल के बारा जिले में रहने के लिए आए। उन्होंने पहले अपनी राजधानी नानापुरा, चंपारण बनाई, लेकिन बाद में इसे सिम्रौनगढ में स्थानांतरित कर दिया। उन्होंने कई अनुयायियों और हिंदू पुरोहितों के साथ राज्य छोड़ दिया। राजा नान्यदेव के पाँचवी पीढ़ी के वंशज राजा शक्तिसिंहदेव (1285 से 1295 ईस्वी तक) थे। उन्हें 1295 ईस्वी में उनके जनरल और मंत्री चादेश्वर ठाकुर द्वारा अपदस्थ कर दिया गया था।</p>
-        <p>जब वे अपनी सत्ता से हटा दिए गए, तो उन्होंने अपने छोटे बेटे हरिसिंहदेव को राज्य सौंपकर जीवन के शेष समय के लिए सप्तरी जिले में वनप्रस्थ (जंगल जीवन) बिताने के लिए आए। समय के साथ, गाँव जंगल से भर गया था। उन्होंने अपने पुरुषों के साथ घने जंगल को साफ किया और मंदिर बनाकर देवी की स्थापना की। राजा का किला मंदिर के पास था, जिसे स्थानीय रूप से गढ़ी गाछी के नाम से जाना जाता था।</p>
-        <p>मंदिर को स्थानीय रूप से सखड़ा भगवती या सख्रेश्वरी भगवती के नाम से जाना जाता है। चूंकि देवी भगवती की मूर्ति का सिर कटा हुआ है, इसे छिन्नमस्ता भगवती के नाम से जाना जाता है।</p>
-        <h2>आक्रमण</h2>
-        <p>तुगलक वंश ने 1320 से 1413 ईस्वी तक दिल्ली सल्तनत और उत्तरी भारत के अधिकांश हिस्से पर शासन किया। 1324 ईस्वी में, वंश के संस्थापक और दिल्ली के सुलतान, घियासुद्दीन तुगलक ने बंगाल की ओर ध्यान केंद्रित किया। वे बंगाल में आक्रमण करने के बाद दिल्ली लौटते समय सिम्रौनगढ के बारे में जान गए। तुगलक की सेनाएँ वर्तमान सप्तरी के माध्यम से सिम्रौनगढ पहुंची, जिससे इस मंदिर और देवी भगवती की मूर्ति को नुकसान हुआ।</p>
-    </div>
-    <div id="maithili" class="content">
-        <h1>छिन्नमस्ता भगवती</h1>
-        <p>छिन्नमस्ता भगवती [सखड़ेश्वरी भगवती] मन्दिर सप्तरी जिलाकऽ राजविराज सँ दक्षिण सीमावर्ती क्षेत्र छिन्नमस्ता गाउँपालिका कऽ सखड़ा गाममे अवस्थित अछि । छिन्नमस्ता भगवती मनोकामना पूर्ण केनिहार शक्तिपीठसभमें सँ एक पीठ मानल जाईत अछि आ नेपाल आ भारतक आमजनमानसक बड्का आस्थाके केन्द्र अछि ।[१]</p>
-        <h2>इतिहास</h2>
-        <p>प्राचिन इतिहास आर किवंदन्तीके अनुसार, सन् १०९७में मुसलमान आक्रमण कालमें कर्नाटकके कर्नाटवंशी राजा नान्यदेव भागि पाटली पुत्र होइत मिथिला आएल आ सिम्रौनगढ (बारा)मे अपन राजधानी कायम कएने छल । एहि नान्यदेव वंशके पाँचम पिढीके शक्रसिंह देव राजा भेल । ऊ नाबालक पुत्र हरिसिंह देवके राजगद्दीपे राखि कऽ निर्वासित जीवन बिताबैल सप्तरी अएलाह। तखनि जङ्गलस भरल ई स्थानमें जङ्गल सफा करि कालमें भेटल भगवती मूर्तिके ओ अपन कुलदेवीक रूपमें स्थापना करलक आ अपन नामसँ देवीकें नाम शक्रेश्वरी राखने छल । देवीके शीर नैभेलाक कारणसँ किछु समयके बाद छिन्नमस्ता भगवती नाम राखल गेल छल ।[२] एहि ठाम दशमी (दशहरा) में सर्धालु भक्तजन सभक नेपाल आ भारतक बिहार सँ पैग सङ्ख्यामे माँताकें भक्तसभ दर्शन करबाक लेल आबैत अछि दशहराकें १० दिन धरि एहि ठाम पूजा पाठ केनिहार भक्तसभक खूब भीर रहैत अछि ।</p>
-        <h2>मूर्तिक विशेषता</h2>
-        <p>भगवतीक मूर्ति कारी रङ्गक छै। मूल मूर्तिके पैरक निचा पाड़ाक शीर स्पष्ट छै। मूल मूर्तिके कात दुनु बगल अन्य मूर्तिसभ अछि। स्थापित मूर्ति भैरवी चामुण्डा, छिन्नमस्ता, दक्षिणकाली आ महिष मर्दिनीक मूति अछि।[३]</p>
-    </div>
+
 </body>
 </html>
