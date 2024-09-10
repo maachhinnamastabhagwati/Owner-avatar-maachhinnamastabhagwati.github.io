@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>छिन्नमस्ता भगवती मन्दिर</title>
+    <!-- Include Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             margin: 0;
@@ -13,7 +15,7 @@
         }
         .hero {
             height: 50vh;
-            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Statue_of_chinnamasta_Bhagwati_%282%29.JPG/250px-Statue_of_chinnamasta_Bhagwati_%282%29.JPG') no-repeat center center/cover;
+            background: url('https://example.com/temple-image.jpg') no-repeat center center/cover;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -47,6 +49,19 @@
             font-size: 18px;
             line-height: 1.6;
         }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            color: #333;
+            font-size: 24px;
+        }
+        .social-icons a:hover {
+            color: #007bff;
+        }
         .footer {
             background-color: #2c3e50;
             color: white;
@@ -61,6 +76,27 @@
         .footer a:hover {
             color: #f1c40f;
         }
+        .gallery {
+            margin: 40px auto;
+            max-width: 900px;
+            padding: 0 20px;
+        }
+        .gallery h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        .gallery-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .gallery-images img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body>
@@ -69,6 +105,21 @@
         <div>
             <h1>छिन्नमस्ता भगवती मन्दिर</h1>
             <p>नेपाल र भारतका भक्तजनहरूको आस्था</p>
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/chhinnamstamabhagwatimandir" target="_blank" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.twitter.com/chhinnamstamabhagwatimandir" target="_blank" title="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/chhinnamstamabhagwatimandir" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                    <a href="mailto:b11r1m@yahoo.com">Get in Touch</a>
+                    <a href="mailto:maachhinnamastabhagwati@gmail.com" target="_blank" title="mail">
+                    <i class="fab fa-mail"></i>
+                </a>
+            </div>
         </div>
     </div>
 
@@ -122,12 +173,24 @@
                 दशैंको समयमा यहाँ भव्य मेला लाग्ने गर्दछ। सप्तरी, सिरहा, सुनसरी, धनुषा, मोरङ, उदयपुर लगायत नेपाल तथा भारतको बिहार राज्यबाट श्रद्धालु भक्तजनहरूको घुइचो लाग्ने गर्दछ। दसैँको समयमा यहाँ घटस्थापना देखि टिकासम्म मेला लाग्ने गर्दछ।
             </p>
         </div>
-    </div>
+        
+	<iframe width="560" height="315" src="https://youtu.be/d1e_I-aa6i8" 
+        title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <body>
-    <h1>Welcome to My Photo Page</h1>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Statue_of_chinnamasta_Bhagwati_%282%29.JPG/250px-Statue_of_chinnamasta_Bhagwati_%282%29.JPG" alt="Chinnamasta Bhagawati also called Shakhada Bhagawati and Shakhadeswori  of Photo" width="600">
-</body>
+
+        <!-- Gallery Section -->
+        <div class="gallery">
+            <h2>ग्यालेरी</h2>
+            <div class="gallery-images">
+                <img src="https://example.com/image1.jpg" alt="Description of Image 1">
+                <img src="https://example.com/image2.jpg" alt="Description of Image 2">
+                <img src="https://example.com/image3.jpg" alt="Description of Image 3">
+                <img src="https://example.com/image4.jpg" alt="Description of Image 4">
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+    </div>
+  
 
     <div class="footer">
         <p>&copy; 2024 छिन्नमस्ता भगवती मन्दिर। सबै अधिकार सुरक्षित।</p>
